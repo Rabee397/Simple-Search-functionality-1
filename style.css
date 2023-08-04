@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 229, 229);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 50px auto;
+}
+.container input , .container span{
+    padding: 20px;
+}
+.container span{
+    border-bottom: 1px solid black;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+}
+.container span:hover{
+    background-color: rgb(231, 229, 229); 
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 70%;
+    }
+}
